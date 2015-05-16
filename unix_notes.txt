@@ -1,0 +1,865 @@
+pwd
+history | less
+history | tail -r
+history 
+mv .git .git.fish
+subl ~/.config/fish/config.fish
+cd
+subl
+cd ..
+cd ...
+ls ~ 
+cd /
+cd Documents/Developer
+cd . 
+cd ../..
+cd Sounds
+ls
+cd Library
+cd src 
+cd src/
+ls -l 
+ls -@
+ls -a 
+ls -tZ
+ls -tz
+man ls
+man
+ls -lrt 
+ls -rt
+ls -r 
+ls -lt 
+ls -t 
+cd / 
+curl -fsSL http://git.io/7UHtNA | sh
+git config user.email
+git config --global user.email 'joaopaulogalvao1@gmail.com'
+git config --global user.name 'Joao Alves'
+git --version
+brew install git
+brew instll git
+echo $PATH 
+echo $EDITOR 
+brew info fish
+brew info git
+brew fish info
+fish info
+brew doctor
+brew update
+brew -v
+uname
+clear 
+npm jquery -v
+bower install jquery
+npm install jquery
+npm install http://code.jquery.com/jquery-1.11.3.min.js
+bower install http://code.jquery.com/jquery-2.1.4.min.js
+npm install -g bower 
+npm install bower
+bower install <package>
+jquery -v
+git checkout master
+git checkout notes
+npm install -g bower
+brew install jquery
+git status
+git rm - r --help
+git rm -r Foundations_1/Assignments https://github.com/joaopaulogalvao/unix-and-git-workshop
+git rm -r Foundations_1/Assignments
+git rm Foundations_1/Assignments
+git push origin https://github.com/joaopaulogalvao/unix-and-git-workshop master
+git push origin https://github.com/joaopaulogalvao/unix-and-git-workshop
+git push origin https://github.com/codefellows/unix-and-git-workshop
+git push https://github.com/joaopaulogalvao/unix-and-git-workshop origin master
+git push https://github.com/joaopaulogalvao/unix-and-git-workshop origin notes
+git push https://github.com/joaopaulogalvao/unix-and-git-workshop
+git push origin notes
+git statu
+git commit -m 'Added message to git_notes and unix_notes.txt files'
+git add .
+nano git_notes.txt 
+git commit -m '<message>' Commits the staging area to the repository with a <message>
+git add <file> Adds any changes inside <file> to the staging area
+touch git_notes.txt
+nano unix_notes.txt 
+touch unix_notes.txt
+fish create unix_notes.txt
+unix_notes.txt
+git branch
+git branc 
+git branch notes
+rm unix_notes.txt 
+rm git_notes.txt 
+git delte git_notes.txt 
+git branch 
+git 
+cd Documents/Documents/Cursos/CodeFellows/Git-Workshop/joaopaulogalvao/
+nano ~/.config/fish/config.fish
+~/.config/fish/config.fish
+git branch -d notes 
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color magenta
+end
+/usr/bin/which cat
+/bin/cat /private/etc/paths 
+/bin/launchctl getenv PATH
+echo $PATH
+time /bin/ls /private/xyz
+cat unix_notes.txt
+mkdir joaopaulogalvao
+cd Git-Workshop/
+mv unix-and-git-workshop/ Git-Workshop
+mv unix-and-git-workshop/ /Git-Workshop
+git mv Git-Workshop/ unix-and-git-workshop/
+git mv unix-and-git-workshop/ Git-Workshop/
+cd CodeFellows/
+git clone https://github.com/joaopaulogalvao/unix-and-git-workshop
+git clo
+mkdir Git-Workshop
+cd Cursos/
+cd Documents/
+git branch -D not 
+git branch -d notes
+git checkout master 
+git -D notes
+git branch -help
+git D notes
+git -d notes
+git help
+git h
+git branch not
+git delete -help
+nano 
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color yellow
+end
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color magental
+end
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color color
+end
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color normal
+end
+fish_prompt 
+nano ~/.bash_profile 
+nano .fishrc
+nano ~/.fish_profile
+na
+npm -v
+node -v
+no
+grunt -v
+npm install -g grunt-cli
+brew install node 
+brew upgrade node
+brew uninstall node
+nod
+brew upgrade npm
+brew update npm
+brew npm
+fish upgrade npm
+fish update npm
+curl -L https://www.npmjs.com/install.sh | sh
+npm install -g http-server node-inspector forever nodemon
+nano ~/.config/fish
+nano .config.fish
+export PATH="$HOME/.node/bin:$PATH"
+-x PATH="$HOME/.node/bin:$PATH"
+set -x DRUSH_PHP /Applications/MAMP/bin/php/php5.5.3/bin/php
+nano
+open config.fish
+open con
+config.fish
+~/.config/fish
+~/.bash_profile
+fish export PATH="$HOME/.node/bin:$PATH"
+~./.bash_profile
+curl -L https://www.npmjs.com/install.sh | sh 
+echo prefix=~/.node >> ~/.npmrc 
+brew install node --without-npm
+brew info 
+sudo npm install npm -g
+brew install npm
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh 
+subl /etc/paths
+open -subl
+#sublime text
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fis
+fish_update_completions 
+fi
+fis
+curl -fsSL http://git.io/beJs | ruby
+fish_update_completions
+chsh -s /usr/local/bin/fish
+sudo nano /etc/shells
+bash -s /usr/local/bin/fish
+brew into fish
+q
+echo '/usr/locanl/bin/fish | sudo tee -a /etc/shells
+brew install fish
+brew install node
+brew link node
+sudo chown -R $USER /usr/local/share
+chmod +w /usr/local/share/
+chmod w /usr/local/share/systemtap/
+chmod +w /usr/local/share/systemtap/
+chmod +w /usr/local/share/systemtap/tapset
+node update
+brew update node
+brew prune /usr/local/share/systemtap/tapset
+brew update --all
+brew upgrade
+brew prune
+rm -rf /usr/local/lib/node_modules/
+brew link --overwrite node
+rm '/usr/local/share/systemtap/tapset/node.stp'
+brew link --overwrite --dry-run node
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sudo rm -rf /opt/local/lib/node_modules
+sudo rm /opt/local/include/node
+sudo rm /opt/local/bin/node
+sudo rm -rf ~/.node-gyp
+sudo rm -rf ~/.npm
+sudo rm /usr/local/share/man/man1/node.1
+sudo rm /usr/local/bin/npm
+cd ~
+rm -r node.d
+rm node.d
+cd dtrace
+rm -r dtrace
+rm dtrace
+rm -r /dtrace
+cd  /usr/local/lib
+whoami
+git push https://github.com/joaopaulogalvao/donutShop
+git pull
+cd Class_3
+git add Class_2
+git add Class_1
+git add Class_3
+git commit -am "First commit to add the Donut Shop"
+git add Class 3
+cd Assignments
+cd Foundations_1
+cd CodeFellows
+cd Foundations_I
+cd CodeFellows/Foundations I
+cd Foundations I
+cd Foundations II
+cd Foundations
+cd FoundationsI
+Foundations I
+cd Documents/Cursos
+cd Documents
+git push -u origin master
+git remote add origin https://github.com/joaopaulogalvao/donutShop.git
+git commit -m "first commit"
+git add README.md
+git init
+echo "# donutShop" >> README.md
+cd joaopaulo
+cd Users/
+whois www.colectivoart.com
+htpasswd
+ssh root@104.236.73.173
+PermitRootLogin without-password
+cat ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub | ssh root@104.236.73.173 "cat >> ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh root@104.236.73.173] "cat >> ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh root@[your.ip.address.here] "cat >> ~/.ssh/authorized_keys"
+http://seancarlin.github.io/barriers2/
+which safari
+which node
+dir
+cd Application
+cd Application Support
+cd Application Support/Sublime Text 2
+Library
+/Library/Application Support/
+subl .
+sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+sudo sudo sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+sudo sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+$ 
+sublime
+git remote set-url origin https://fretelist@github.com/fretelist/fretelist.git
+git push origin master
+cd fretelist/
+.git/config
+git push
+git commit -am "first commit after conflict from previous version and added changeVehicleTypeCapability to MyaAccountTableViewcontroller"
+git add 
+cd FreteList_Final/
+git add FreteList_Final/
+git clone https://github.com/fretelist/fretelist.git
+git commit -am "commit to merge changes made at other computer"
+git merge
+git fetch
+cd FreteList/
+cd Developer
+,s
+git commit -am "pulling changes from Camilo"
+cd FreteList
+git remote -v
+ls -la
+nano .git/config
+git config name
+git config.name
+git config --local
+git config
+git nano
+cd tenhoDesconto
+git commit -am "first commit after pulling"
+nano .gitignore
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto/tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstatecd ..
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstatecd ..
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto.xcodeproj/tenhoDesconto.workspace/xcuserdata/joaopaulogalvao.xcuserdatad/UserInterfaceState.xcuserstate
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto.xcodeproj/project.workspace/xcuserdata/joaopaulogalvao.xcuserdatad/UserInterfaceState.xcuserstate
+git rm -r --cached project.xcworkspace
+git rm -r --cached tenhoDesconto.xcworkspace
+git commit -am "changes to git ignore"
+cd .gitignore
+git rm --cached *.xcuserstate
+git rm --cached .xcuserstate
+git rm --chached .xcuserstate
+git gc --aggressive --prune=now
+git gc --prune=now
+rm -rf .git/refs/original
+git filter-branch --index-filter
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto
+git commit -am "changes to gitignore"
+nano gitignore
+git rm --cached /Users/joaopaulo/Documents/Developer
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto//projecto.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstatecd ..
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto/tenhoDesconto.xcodeproj/tenhoDesconto.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstatecd ..
+git nano .gitignore
+git nano gitignore
+git commit -am "removed file that shouldn't be tracked"
+git commit -m "Removed file that shouldn't be tracked"
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto/tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstate
+git tenhoDesconto
+git clean -f -d
+git rm --cached tenhoDesconto/tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstate
+git rm --cached Documents/Developer/tenhoDesconto/tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstate
+git rm --cached tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstate
+git commit -am "commit after merged apple_maps to replce master"
+git merge apple_maps
+git commit -am "changes to merge apple_maps and replace master"
+git merge --strategy=ours master
+git checkout apple_maps
+cd joaopaulo/Developer
+git log --oneline -9
+git log --oneline -8
+git log --oneline -6
+git push origin apple_maps
+git commit -am "removed wrong files from folder"
+git log --oneline -5
+git log --oneline -3
+git log -oneline -3
+git log -oneline --3
+git commit -am "reverting to correct github's repo"
+git revert fffed339109ae0c3182f81478ec26c68dc7db6f5
+git revert --help
+git revert commit fffed339109ae0c3182f81478ec26c68dc7db6f5
+git push -f https://github.com/joaopaulogalvao/tenhodesconto.git apple_maps
+git merge --help
+git revert merge
+git commit -am "commit to merge"
+git push apple_maps master
+git commit -am "commit to merge apple_maps into master"
+git merge apple_maps master
+git fast-forward merge
+cd Developer/Git
+git push origin/apple_maps apple_maps
+git push origin/apple_maps
+git commit -am "some comments"
+git commit -am "added Breakpoints"
+branch
+git merge mapTest_sessions
+git merge mapTest_sessions origin/master
+git merge mapTest_sessions master
+git log --oneline
+cd mapTest_sessions/
+git commit -am "added items for commit after codementor's session"
+git commit -am "corrected sorting order in CategoryViewController, and added regex for search criteria"
+ls -rtl 
+ls -t | less
+ls -rt
+ls -tZ
+ls
+history > moving_around.txt
+pwd
+history | less
+history | tail -r
+history 
+mv .git .git.fish
+subl ~/.config/fish/config.fish
+cd
+subl
+cd ..
+cd ...
+ls ~ 
+cd /
+cd Documents/Developer
+cd . 
+cd ../..
+cd Sounds
+cd Library
+cd src 
+cd src/
+ls -l 
+ls -@
+ls -a 
+ls -tz
+man ls
+man
+ls -lrt 
+ls -r 
+ls -lt 
+ls -t 
+cd / 
+curl -fsSL http://git.io/7UHtNA | sh
+git config user.email
+git config --global user.email 'joaopaulogalvao1@gmail.com'
+git config --global user.name 'Joao Alves'
+git --version
+brew install git
+brew instll git
+echo $PATH 
+echo $EDITOR 
+brew info fish
+brew info git
+brew fish info
+fish info
+brew doctor
+brew update
+brew -v
+uname
+clear 
+npm jquery -v
+bower install jquery
+npm install jquery
+npm install http://code.jquery.com/jquery-1.11.3.min.js
+bower install http://code.jquery.com/jquery-2.1.4.min.js
+npm install -g bower 
+npm install bower
+bower install <package>
+jquery -v
+git checkout master
+git checkout notes
+npm install -g bower
+brew install jquery
+git status
+git rm - r --help
+git rm -r Foundations_1/Assignments https://github.com/joaopaulogalvao/unix-and-git-workshop
+git rm -r Foundations_1/Assignments
+git rm Foundations_1/Assignments
+git push origin https://github.com/joaopaulogalvao/unix-and-git-workshop master
+git push origin https://github.com/joaopaulogalvao/unix-and-git-workshop
+git push origin https://github.com/codefellows/unix-and-git-workshop
+git push https://github.com/joaopaulogalvao/unix-and-git-workshop origin master
+git push https://github.com/joaopaulogalvao/unix-and-git-workshop origin notes
+git push https://github.com/joaopaulogalvao/unix-and-git-workshop
+git push origin notes
+git statu
+git commit -m 'Added message to git_notes and unix_notes.txt files'
+git add .
+nano git_notes.txt 
+git commit -m '<message>' Commits the staging area to the repository with a <message>
+git add <file> Adds any changes inside <file> to the staging area
+touch git_notes.txt
+nano unix_notes.txt 
+touch unix_notes.txt
+fish create unix_notes.txt
+unix_notes.txt
+git branch
+git branc 
+git branch notes
+rm unix_notes.txt 
+rm git_notes.txt 
+git delte git_notes.txt 
+git branch 
+git 
+cd Documents/Documents/Cursos/CodeFellows/Git-Workshop/joaopaulogalvao/
+nano ~/.config/fish/config.fish
+~/.config/fish/config.fish
+git branch -d notes 
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color magenta
+end
+/usr/bin/which cat
+/bin/cat /private/etc/paths 
+/bin/launchctl getenv PATH
+echo $PATH
+time /bin/ls /private/xyz
+cat unix_notes.txt
+mkdir joaopaulogalvao
+cd Git-Workshop/
+mv unix-and-git-workshop/ Git-Workshop
+mv unix-and-git-workshop/ /Git-Workshop
+git mv Git-Workshop/ unix-and-git-workshop/
+git mv unix-and-git-workshop/ Git-Workshop/
+cd CodeFellows/
+git clone https://github.com/joaopaulogalvao/unix-and-git-workshop
+git clo
+mkdir Git-Workshop
+cd Cursos/
+cd Documents/
+git branch -D not 
+git branch -d notes
+git checkout master 
+git -D notes
+git branch -help
+git D notes
+git -d notes
+git help
+git h
+git branch not
+git delete -help
+nano 
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color yellow
+end
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color magental
+end
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color color
+end
+function fish_prompt
+set last_status $status
+
+  set_color $fish_color_cwd
+  printf '%s' (prompt_pwd)
+  set_color normal
+
+  printf '%s ' (__fish_git_prompt)
+
+  set_color normal
+end
+fish_prompt 
+nano ~/.bash_profile 
+nano .fishrc
+nano ~/.fish_profile
+na
+npm -v
+node -v
+no
+grunt -v
+npm install -g grunt-cli
+brew install node 
+brew upgrade node
+brew uninstall node
+nod
+brew upgrade npm
+brew update npm
+brew npm
+fish upgrade npm
+fish update npm
+curl -L https://www.npmjs.com/install.sh | sh
+npm install -g http-server node-inspector forever nodemon
+nano ~/.config/fish
+nano .config.fish
+export PATH="$HOME/.node/bin:$PATH"
+-x PATH="$HOME/.node/bin:$PATH"
+set -x DRUSH_PHP /Applications/MAMP/bin/php/php5.5.3/bin/php
+nano
+open config.fish
+open con
+config.fish
+~/.config/fish
+~/.bash_profile
+fish export PATH="$HOME/.node/bin:$PATH"
+~./.bash_profile
+curl -L https://www.npmjs.com/install.sh | sh 
+echo prefix=~/.node >> ~/.npmrc 
+brew install node --without-npm
+brew info 
+sudo npm install npm -g
+brew install npm
+curl -fsSL http://git.io/QxUaOQ | sh
+curl -fsSL http://git.io/7UHtNA | sh 
+subl /etc/paths
+open -subl
+#sublime text
+ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
+brew info fis
+fish_update_completions 
+fi
+fis
+curl -fsSL http://git.io/beJs | ruby
+fish_update_completions
+chsh -s /usr/local/bin/fish
+sudo nano /etc/shells
+bash -s /usr/local/bin/fish
+brew into fish
+q
+echo '/usr/locanl/bin/fish | sudo tee -a /etc/shells
+brew install fish
+brew install node
+brew link node
+sudo chown -R $USER /usr/local/share
+chmod +w /usr/local/share/
+chmod w /usr/local/share/systemtap/
+chmod +w /usr/local/share/systemtap/
+chmod +w /usr/local/share/systemtap/tapset
+node update
+brew update node
+brew prune /usr/local/share/systemtap/tapset
+brew update --all
+brew upgrade
+brew prune
+rm -rf /usr/local/lib/node_modules/
+brew link --overwrite node
+rm '/usr/local/share/systemtap/tapset/node.stp'
+brew link --overwrite --dry-run node
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+sudo rm -rf /opt/local/lib/node_modules
+sudo rm /opt/local/include/node
+sudo rm /opt/local/bin/node
+sudo rm -rf ~/.node-gyp
+sudo rm -rf ~/.npm
+sudo rm /usr/local/share/man/man1/node.1
+sudo rm /usr/local/bin/npm
+cd ~
+rm -r node.d
+rm node.d
+cd dtrace
+rm -r dtrace
+rm dtrace
+rm -r /dtrace
+cd  /usr/local/lib
+whoami
+git push https://github.com/joaopaulogalvao/donutShop
+git pull
+cd Class_3
+git add Class_2
+git add Class_1
+git add Class_3
+git commit -am "First commit to add the Donut Shop"
+git add Class 3
+cd Assignments
+cd Foundations_1
+cd CodeFellows
+cd Foundations_I
+cd CodeFellows/Foundations I
+cd Foundations I
+cd Foundations II
+cd Foundations
+cd FoundationsI
+Foundations I
+cd Documents/Cursos
+cd Documents
+git push -u origin master
+git remote add origin https://github.com/joaopaulogalvao/donutShop.git
+git commit -m "first commit"
+git add README.md
+git init
+echo "# donutShop" >> README.md
+cd joaopaulo
+cd Users/
+whois www.colectivoart.com
+htpasswd
+ssh root@104.236.73.173
+PermitRootLogin without-password
+cat ~/.ssh/id_rsa.pub
+ssh-keygen -t rsa
+cat ~/.ssh/id_rsa.pub | ssh root@104.236.73.173 "cat >> ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh root@104.236.73.173] "cat >> ~/.ssh/authorized_keys"
+cat ~/.ssh/id_rsa.pub | ssh root@[your.ip.address.here] "cat >> ~/.ssh/authorized_keys"
+http://seancarlin.github.io/barriers2/
+which safari
+which node
+dir
+cd Application
+cd Application Support
+cd Application Support/Sublime Text 2
+Library
+/Library/Application Support/
+subl .
+sudo ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+sudo sudo sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+sudo sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
+$ 
+sublime
+git remote set-url origin https://fretelist@github.com/fretelist/fretelist.git
+git push origin master
+cd fretelist/
+.git/config
+git push
+git commit -am "first commit after conflict from previous version and added changeVehicleTypeCapability to MyaAccountTableViewcontroller"
+git add 
+cd FreteList_Final/
+git add FreteList_Final/
+git clone https://github.com/fretelist/fretelist.git
+git commit -am "commit to merge changes made at other computer"
+git merge
+git fetch
+cd FreteList/
+cd Developer
+,s
+git commit -am "pulling changes from Camilo"
+cd FreteList
+git remote -v
+ls -la
+nano .git/config
+git config name
+git config.name
+git config --local
+git config
+git nano
+cd tenhoDesconto
+git commit -am "first commit after pulling"
+nano .gitignore
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto/tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstatecd ..
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstatecd ..
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto.xcodeproj/tenhoDesconto.workspace/xcuserdata/joaopaulogalvao.xcuserdatad/UserInterfaceState.xcuserstate
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto.xcodeproj/project.workspace/xcuserdata/joaopaulogalvao.xcuserdatad/UserInterfaceState.xcuserstate
+git rm -r --cached project.xcworkspace
+git rm -r --cached tenhoDesconto.xcworkspace
+git commit -am "changes to git ignore"
+cd .gitignore
+git rm --cached *.xcuserstate
+git rm --cached .xcuserstate
+git rm --chached .xcuserstate
+git gc --aggressive --prune=now
+git gc --prune=now
+rm -rf .git/refs/original
+git filter-branch --index-filter
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto
+git commit -am "changes to gitignore"
+nano gitignore
+git rm --cached /Users/joaopaulo/Documents/Developer
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto//projecto.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstatecd ..
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto/tenhoDesconto.xcodeproj/tenhoDesconto.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstatecd ..
+git nano .gitignore
+git nano gitignore
+git commit -am "removed file that shouldn't be tracked"
+git commit -m "Removed file that shouldn't be tracked"
+git rm --cached /Users/joaopaulo/Documents/Developer/tenhoDesconto/tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstate
+git tenhoDesconto
+git clean -f -d
+git rm --cached tenhoDesconto/tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstate
+git rm --cached Documents/Developer/tenhoDesconto/tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstate
+git rm --cached tenhoDesconto.xcodeproj/project.xcworkspace/xcuserdata/joaopaulogalvao.xcuserdata/UserInterfaceSatate.xcuserstate
+git commit -am "commit after merged apple_maps to replce master"
+git merge apple_maps
+git commit -am "changes to merge apple_maps and replace master"
+git merge --strategy=ours master
+git checkout apple_maps
+cd joaopaulo/Developer
+git log --oneline -9
+git log --oneline -8
+git log --oneline -6
+git push origin apple_maps
+git commit -am "removed wrong files from folder"
+git log --oneline -5
+git log --oneline -3
+git log -oneline -3
+git log -oneline --3
+git commit -am "reverting to correct github's repo"
+git revert fffed339109ae0c3182f81478ec26c68dc7db6f5
+git revert --help
+git revert commit fffed339109ae0c3182f81478ec26c68dc7db6f5
+git push -f https://github.com/joaopaulogalvao/tenhodesconto.git apple_maps
+git merge --help
+git revert merge
+git commit -am "commit to merge"
+git push apple_maps master
+git commit -am "commit to merge apple_maps into master"
+git merge apple_maps master
+git fast-forward merge
+cd Developer/Git
+git push origin/apple_maps apple_maps
+git push origin/apple_maps
+git commit -am "some comments"
+git commit -am "added Breakpoints"
+branch
+git merge mapTest_sessions
+git merge mapTest_sessions origin/master
+git merge mapTest_sessions master
+git log --oneline
+cd mapTest_sessions/
+git commit -am "added items for commit after codementor's session"
+git commit -am "corrected sorting order in CategoryViewController, and added regex for search criteria"
