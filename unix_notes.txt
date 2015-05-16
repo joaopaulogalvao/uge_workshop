@@ -1,36 +1,37 @@
+#Print work directory
 pwd
 history | less
 history | tail -r
-history 
+history
 mv .git .git.fish
 subl ~/.config/fish/config.fish
 cd
 subl
 cd ..
 cd ...
-ls ~ 
+ls ~
 cd /
 cd Documents/Developer
-cd . 
+cd .
 cd ../..
 cd Sounds
 ls
 cd Library
-cd src 
+cd src
 cd src/
-ls -l 
+ls -l
 ls -@
-ls -a 
+ls -a
 ls -tZ
 ls -tz
 man ls
 man
-ls -lrt 
+ls -lrt
 ls -rt
-ls -r 
-ls -lt 
-ls -t 
-cd / 
+ls -r
+ls -lt
+ls -t
+cd /
 curl -fsSL http://git.io/7UHtNA | sh
 git config user.email
 git config --global user.email 'joaopaulogalvao1@gmail.com'
@@ -38,8 +39,8 @@ git config --global user.name 'Joao Alves'
 git --version
 brew install git
 brew instll git
-echo $PATH 
-echo $EDITOR 
+echo $PATH
+echo $EDITOR
 brew info fish
 brew info git
 brew fish info
@@ -48,13 +49,13 @@ brew doctor
 brew update
 brew -v
 uname
-clear 
+clear
 npm jquery -v
 bower install jquery
 npm install jquery
 npm install http://code.jquery.com/jquery-1.11.3.min.js
 bower install http://code.jquery.com/jquery-2.1.4.min.js
-npm install -g bower 
+npm install -g bower
 npm install bower
 bower install <package>
 jquery -v
@@ -77,26 +78,26 @@ git push origin notes
 git statu
 git commit -m 'Added message to git_notes and unix_notes.txt files'
 git add .
-nano git_notes.txt 
+nano git_notes.txt
 git commit -m '<message>' Commits the staging area to the repository with a <message>
 git add <file> Adds any changes inside <file> to the staging area
 touch git_notes.txt
-nano unix_notes.txt 
+nano unix_notes.txt
 touch unix_notes.txt
 fish create unix_notes.txt
 unix_notes.txt
 git branch
-git branc 
+git branc
 git branch notes
-rm unix_notes.txt 
-rm git_notes.txt 
-git delte git_notes.txt 
-git branch 
-git 
+rm unix_notes.txt
+rm git_notes.txt
+git delte git_notes.txt
+git branch
+git
 cd Documents/Documents/Cursos/CodeFellows/Git-Workshop/joaopaulogalvao/
 nano ~/.config/fish/config.fish
 ~/.config/fish/config.fish
-git branch -d notes 
+git branch -d notes
 function fish_prompt
 set last_status $status
 
@@ -109,7 +110,7 @@ set last_status $status
   set_color magenta
 end
 /usr/bin/which cat
-/bin/cat /private/etc/paths 
+/bin/cat /private/etc/paths
 /bin/launchctl getenv PATH
 echo $PATH
 time /bin/ls /private/xyz
@@ -126,9 +127,9 @@ git clo
 mkdir Git-Workshop
 cd Cursos/
 cd Documents/
-git branch -D not 
+git branch -D not
 git branch -d notes
-git checkout master 
+git checkout master
 git -D notes
 git branch -help
 git D notes
@@ -137,7 +138,7 @@ git help
 git h
 git branch not
 git delete -help
-nano 
+nano
 function fish_prompt
 set last_status $status
 
@@ -182,8 +183,8 @@ set last_status $status
 
   set_color normal
 end
-fish_prompt 
-nano ~/.bash_profile 
+fish_prompt
+nano ~/.bash_profile
 nano .fishrc
 nano ~/.fish_profile
 na
@@ -192,7 +193,7 @@ node -v
 no
 grunt -v
 npm install -g grunt-cli
-brew install node 
+brew install node
 brew upgrade node
 brew uninstall node
 nod
@@ -216,20 +217,20 @@ config.fish
 ~/.bash_profile
 fish export PATH="$HOME/.node/bin:$PATH"
 ~./.bash_profile
-curl -L https://www.npmjs.com/install.sh | sh 
-echo prefix=~/.node >> ~/.npmrc 
+curl -L https://www.npmjs.com/install.sh | sh
+echo prefix=~/.node >> ~/.npmrc
 brew install node --without-npm
-brew info 
+brew info
 sudo npm install npm -g
 brew install npm
 curl -fsSL http://git.io/QxUaOQ | sh
-curl -fsSL http://git.io/7UHtNA | sh 
+curl -fsSL http://git.io/7UHtNA | sh
 subl /etc/paths
 open -subl
 #sublime text
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 brew info fis
-fish_update_completions 
+fish_update_completions
 fi
 fis
 curl -fsSL http://git.io/beJs | ruby
@@ -327,7 +328,7 @@ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/su
 sudo sudo sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
 sudo sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
 sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
-$ 
+$
 sublime
 git remote set-url origin https://fretelist@github.com/fretelist/fretelist.git
 git push origin master
@@ -335,7 +336,7 @@ cd fretelist/
 .git/config
 git push
 git commit -am "first commit after conflict from previous version and added changeVehicleTypeCapability to MyaAccountTableViewcontroller"
-git add 
+git add
 cd FreteList_Final/
 git add FreteList_Final/
 git clone https://github.com/fretelist/fretelist.git
@@ -429,7 +430,7 @@ git log --oneline
 cd mapTest_sessions/
 git commit -am "added items for commit after codementor's session"
 git commit -am "corrected sorting order in CategoryViewController, and added regex for search criteria"
-ls -rtl 
+ls -rtl
 ls -t | less
 ls -rt
 ls -tZ
@@ -438,33 +439,33 @@ history > moving_around.txt
 pwd
 history | less
 history | tail -r
-history 
+history
 mv .git .git.fish
 subl ~/.config/fish/config.fish
 cd
 subl
 cd ..
 cd ...
-ls ~ 
+ls ~
 cd /
 cd Documents/Developer
-cd . 
+cd .
 cd ../..
 cd Sounds
 cd Library
-cd src 
+cd src
 cd src/
-ls -l 
+ls -l
 ls -@
-ls -a 
+ls -a
 ls -tz
 man ls
 man
-ls -lrt 
-ls -r 
-ls -lt 
-ls -t 
-cd / 
+ls -lrt
+ls -r
+ls -lt
+ls -t
+cd /
 curl -fsSL http://git.io/7UHtNA | sh
 git config user.email
 git config --global user.email 'joaopaulogalvao1@gmail.com'
@@ -472,8 +473,8 @@ git config --global user.name 'Joao Alves'
 git --version
 brew install git
 brew instll git
-echo $PATH 
-echo $EDITOR 
+echo $PATH
+echo $EDITOR
 brew info fish
 brew info git
 brew fish info
@@ -482,13 +483,13 @@ brew doctor
 brew update
 brew -v
 uname
-clear 
+clear
 npm jquery -v
 bower install jquery
 npm install jquery
 npm install http://code.jquery.com/jquery-1.11.3.min.js
 bower install http://code.jquery.com/jquery-2.1.4.min.js
-npm install -g bower 
+npm install -g bower
 npm install bower
 bower install <package>
 jquery -v
@@ -511,26 +512,26 @@ git push origin notes
 git statu
 git commit -m 'Added message to git_notes and unix_notes.txt files'
 git add .
-nano git_notes.txt 
+nano git_notes.txt
 git commit -m '<message>' Commits the staging area to the repository with a <message>
 git add <file> Adds any changes inside <file> to the staging area
 touch git_notes.txt
-nano unix_notes.txt 
+nano unix_notes.txt
 touch unix_notes.txt
 fish create unix_notes.txt
 unix_notes.txt
 git branch
-git branc 
+git branc
 git branch notes
-rm unix_notes.txt 
-rm git_notes.txt 
-git delte git_notes.txt 
-git branch 
-git 
+rm unix_notes.txt
+rm git_notes.txt
+git delte git_notes.txt
+git branch
+git
 cd Documents/Documents/Cursos/CodeFellows/Git-Workshop/joaopaulogalvao/
 nano ~/.config/fish/config.fish
 ~/.config/fish/config.fish
-git branch -d notes 
+git branch -d notes
 function fish_prompt
 set last_status $status
 
@@ -543,7 +544,7 @@ set last_status $status
   set_color magenta
 end
 /usr/bin/which cat
-/bin/cat /private/etc/paths 
+/bin/cat /private/etc/paths
 /bin/launchctl getenv PATH
 echo $PATH
 time /bin/ls /private/xyz
@@ -560,9 +561,9 @@ git clo
 mkdir Git-Workshop
 cd Cursos/
 cd Documents/
-git branch -D not 
+git branch -D not
 git branch -d notes
-git checkout master 
+git checkout master
 git -D notes
 git branch -help
 git D notes
@@ -571,7 +572,7 @@ git help
 git h
 git branch not
 git delete -help
-nano 
+nano
 function fish_prompt
 set last_status $status
 
@@ -616,8 +617,8 @@ set last_status $status
 
   set_color normal
 end
-fish_prompt 
-nano ~/.bash_profile 
+fish_prompt
+nano ~/.bash_profile
 nano .fishrc
 nano ~/.fish_profile
 na
@@ -626,7 +627,7 @@ node -v
 no
 grunt -v
 npm install -g grunt-cli
-brew install node 
+brew install node
 brew upgrade node
 brew uninstall node
 nod
@@ -650,20 +651,20 @@ config.fish
 ~/.bash_profile
 fish export PATH="$HOME/.node/bin:$PATH"
 ~./.bash_profile
-curl -L https://www.npmjs.com/install.sh | sh 
-echo prefix=~/.node >> ~/.npmrc 
+curl -L https://www.npmjs.com/install.sh | sh
+echo prefix=~/.node >> ~/.npmrc
 brew install node --without-npm
-brew info 
+brew info
 sudo npm install npm -g
 brew install npm
 curl -fsSL http://git.io/QxUaOQ | sh
-curl -fsSL http://git.io/7UHtNA | sh 
+curl -fsSL http://git.io/7UHtNA | sh
 subl /etc/paths
 open -subl
 #sublime text
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/subl
 brew info fis
-fish_update_completions 
+fish_update_completions
 fi
 fis
 curl -fsSL http://git.io/beJs | ruby
@@ -761,7 +762,7 @@ ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/su
 sudo sudo sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
 sudo sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
 sudoln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" /bin/subl
-$ 
+$
 sublime
 git remote set-url origin https://fretelist@github.com/fretelist/fretelist.git
 git push origin master
@@ -769,7 +770,7 @@ cd fretelist/
 .git/config
 git push
 git commit -am "first commit after conflict from previous version and added changeVehicleTypeCapability to MyaAccountTableViewcontroller"
-git add 
+git add
 cd FreteList_Final/
 git add FreteList_Final/
 git clone https://github.com/fretelist/fretelist.git
